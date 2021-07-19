@@ -25,11 +25,16 @@ You can find a more detailed version of our theme code principles in the [contri
 
 1. Fork the repository and clone it:
 ```sh
-git clone git@github.com:your-username/dawn.git
+git clone https://github.com/entrecode/dawn.git
 cd dawn
 ```
 2. Install the [Shopify CLI](https://github.com/Shopify/shopify-cli) by following [these steps](https://shopify.dev/themes/tools/cli/installation).
-3. Launch a development server in the `dawn/` folder:
+
+```sh
+shopify login --store https://ec-light.myshopify.com/
+```
+
+1. Launch a development server in the `dawn/` folder:
 ```sh
 shopify theme serve
 ```
